@@ -1,0 +1,38 @@
+body{
+    font-family: Catamaran, sans-serif;
+}
+header{
+    background-image: url('images/h9-parallax-1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+
+}
+nav{
+    background-color: rgba(0, 0, 0,0.5);
+    z-index: 99999;
+}
+#section{
+    background-image: url('images/h6-slide1-img.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 70vh;
+}
+#product:hover #link{
+    top:0% !important;
+    transition-duration:1s ;
+}
+#product{
+    top: 100%;
+    transition: top 1s;
+}
+#link {
+    top: 100%;
+    transition: top 1s;
+}
+#product:hover #link:hover {
+    top: 0%;
+    transition: top 1s;
+}
